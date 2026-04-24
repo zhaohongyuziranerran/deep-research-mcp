@@ -1,0 +1,15 @@
+name: deep-research-mcp
+version: 1.0
+description: |
+  多源深度调研MCP Server - 覆盖Web搜索/新闻/学术论文多源信息聚合
+  6个工具：深度调研/快速搜索/新闻追踪/学术搜索/话题分析/报告生成
+  支持中文和英文内容分析，自动生成结构化Markdown报告
+runtime: python
+main: server.py
+
+pricing:
+  model: free
+
+deploy:
+  memory: 1024
+  timeout: 120
